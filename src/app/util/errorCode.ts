@@ -17,7 +17,11 @@ export const ErrorCodes: { [key: string]: CustomError } = {
     VALIDATION_ERROR: {
         CODE: "VALIDATION_ERROR",
         MESSAGE: "Validation failed error",
-    }
+    },
+    DEPT_NOT_FOUND: {
+        CODE: "DEPT_NOT_FOUND",
+        MESSAGE: "Department not found",
+    },
 };
 
 /**
